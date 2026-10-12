@@ -1,0 +1,1015 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jayant - B.Tech CSE (1st Year) Student at JECRC University, Rajasthan. Personal developer portfolio showcasing skills, projects, and education.">
+  <meta name="keywords" content="Jayant, Portfolio, B.Tech CSE, JECRC University, Web Developer, C Programmer, JavaScript">
+  <meta name="author" content="Jayant">
+  <meta name="theme-color" content="#07080d">
+
+  <title>Jayant | B.Tech CSE Student &amp; Developer Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Background Glow Elements -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-3" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar-wrapper" id="header">
+    <div class="container navbar-container">
+      <a href="#home" class="nav-brand" aria-label="Jayant's Portfolio Home">
+        <span class="brand-bracket">&lt;</span>
+        <span class="brand-name">Jayant</span>
+        <span class="brand-slash">/</span>
+        <span class="brand-bracket">&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions (Resume button + Mobile Toggle) -->
+      <div class="nav-actions">
+        <!-- Download CV / Resume Button in Header -->
+        <a href="./assets/Jayant_Resume.txt" download="Jayant_Resume.txt" class="btn btn-outline btn-sm cv-btn" id="header-cv-btn" title="Download Jayant's CV">
+          <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ==============================================
+         SECTION 1: HOME / HERO
+         ============================================== -->
+    <section class="section hero-section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Status Pill Badge -->
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>B.Tech CSE &bull; 1st Year (2026&ndash;2030) @ JECRC University</span>
+          </div>
+
+          <!-- Main Hero Greeting & Heading -->
+          <h1 class="hero-title">
+            <span class="hero-greeting">Hi, I'm</span>
+            <span class="hero-name gradient-text">Jayant</span>
+          </h1>
+
+          <!-- Typewriter Dynamic Subtitle -->
+          <div class="hero-typed-wrapper">
+            <span class="typed-prefix">&gt; </span>
+            <span class="typed-text" id="typed-text">B.Tech CSE Student</span>
+            <span class="typed-cursor" aria-hidden="true">|</span>
+          </div>
+
+          <!-- Short Intro -->
+          <p class="hero-description">
+            First-year Computer Science and Engineering student at <strong class="text-highlight">JECRC University</strong>, Rajasthan (Batch 2026&ndash;2030). Passionate about programming fundamentals in C, building modern web experiences with HTML, CSS &amp; JavaScript, and exploring future technology.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Contact Me</span>
+              <i class="fa-regular fa-paper-plane" aria-hidden="true"></i>
+            </a>
+            <a href="./assets/Jayant_Resume.txt" download="Jayant_Resume.txt" class="btn btn-glass" id="hero-cv-btn">
+              <i class="fa-solid fa-download" aria-hidden="true"></i>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Social Links Strip -->
+          <div class="hero-socials">
+            <span class="social-label">Find me on:</span>
+            <div class="social-links">
+              <!-- Placeholder link: replace with your real GitHub profile -->
+              <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile (Placeholder)">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+              <!-- Placeholder link: replace with your real LinkedIn profile -->
+              <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile (Placeholder)">
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <!-- Placeholder link: replace with your real email -->
+              <a href="mailto:jayant.placeholder@example.com" class="social-icon" aria-label="Email Jayant">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Developer Photo Card -->
+        <div class="hero-graphic">
+          <div class="hero-photo-wrapper">
+            <div class="hero-photo-card glass-card">
+              <div class="hero-img-box">
+                <img src="./assets/jayant.jpg" alt="Jayant - B.Tech CSE Student at JECRC University" class="hero-portrait-img">
+                <div class="hero-img-overlay"></div>
+              </div>
+
+              <!-- Floating Badges on Photo -->
+              <div class="floating-badge badge-top glass-card">
+                <i class="fa-solid fa-code text-accent"></i>
+                <div class="floating-badge-text">
+                  <span class="floating-title">B.Tech CSE</span>
+                  <span class="floating-sub">Batch 2026&ndash;2030</span>
+                </div>
+              </div>
+
+              <div class="floating-badge badge-bottom glass-card">
+                <i class="fa-solid fa-building-columns text-accent"></i>
+                <div class="floating-badge-text">
+                  <span class="floating-title">JECRC University</span>
+                  <span class="floating-sub">Rajasthan, India</span>
+                </div>
+              </div>
+            </div>
+            <div class="hero-glow-blob" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+        <span class="mouse-icon"><span class="wheel"></span></span>
+        <span class="scroll-text">Scroll Down</span>
+      </a>
+    </section>
+
+    <!-- ==============================================
+         SECTION 2: ABOUT ME
+         ============================================== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-regular fa-user"></i> Get To Know Me</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Who I am, what I study, and what drives my passion for software engineering.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Profile Photo Card Column -->
+          <div class="about-photo-card glass-card">
+            <div class="photo-wrapper">
+              <img src="./assets/jayant.jpg" alt="Jayant - Developer Portrait" class="profile-img" id="profile-img">
+              <div class="photo-glow" aria-hidden="true"></div>
+            </div>
+            
+            <div class="photo-meta">
+              <h3 class="meta-name">Jayant</h3>
+              <p class="meta-role">B.Tech CSE &bull; Class of 2030</p>
+              <p class="meta-college"><i class="fa-solid fa-building-columns text-accent"></i> JECRC University, Rajasthan</p>
+              <div class="meta-badge-tag">
+                <span class="pulse-indicator"></span> 1st Year (2026&ndash;2030)
+              </div>
+            </div>
+          </div>
+
+          <!-- About Narrative & Coding Interests Column -->
+          <div class="about-content">
+            <h3 class="about-heading">
+              Engineering with curiosity, <span class="gradient-text">building with purpose</span>.
+            </h3>
+            
+            <p class="about-text">
+              Hello! I'm <strong class="text-white">Jayant</strong>, a 1st-year undergraduate pursuing a Bachelor of Technology in <strong>Computer Science &amp; Engineering</strong> at <strong>JECRC University</strong> in Rajasthan, India (Batch 2026&ndash;2030).
+            </p>
+
+            <p class="about-text">
+              I have embarked on my journey in computer science with a deep interest in understanding how software works from first principles. From writing structured algorithms and memory-conscious logic in <strong>C</strong>, to designing clean, responsive web layouts using modern <strong>HTML, CSS</strong> and dynamic <strong>JavaScript</strong>, I enjoy turning abstract concepts into functional applications.
+            </p>
+
+            <!-- Coding Interests Highlights -->
+            <div class="interests-container">
+              <h4 class="interests-title"><i class="fa-solid fa-code text-accent"></i> Primary Coding Interests:</h4>
+              <div class="interest-chips">
+                <span class="chip"><i class="fa-solid fa-laptop-code"></i> Web Development</span>
+                <span class="chip"><i class="fa-solid fa-microchip"></i> C &amp; Systems Logic</span>
+                <span class="chip"><i class="fa-solid fa-cubes"></i> Data Structures &amp; Problem Solving</span>
+                <span class="chip"><i class="fa-solid fa-code-branch"></i> Git &amp; Open Source</span>
+                <span class="chip"><i class="fa-solid fa-wand-magic-sparkles"></i> UI/UX Design &amp; Glassmorphism</span>
+              </div>
+            </div>
+
+            <!-- Quick Stat / Highlight Cards -->
+            <div class="about-stats-grid">
+              <div class="stat-card glass-card">
+                <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="stat-info">
+                  <span class="stat-value">2026&ndash;2030</span>
+                  <span class="stat-label">B.Tech CSE @ JECRC</span>
+                </div>
+              </div>
+
+              <div class="stat-card glass-card">
+                <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+                <div class="stat-info">
+                  <span class="stat-value">85.40%</span>
+                  <span class="stat-label">Class XII (12th Grade)</span>
+                </div>
+              </div>
+
+              <div class="stat-card glass-card">
+                <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+                <div class="stat-info">
+                  <span class="stat-value">82.00%</span>
+                  <span class="stat-label">Class X (10th Grade)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- About Action Buttons -->
+            <div class="about-actions">
+              <a href="./assets/Jayant_Resume.txt" download="Jayant_Resume.txt" class="btn btn-primary">
+                <i class="fa-solid fa-download"></i>
+                <span>Download CV</span>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fa-regular fa-comment-dots"></i>
+                <span>Let's Talk</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 3: SKILLS
+         ============================================== -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-bolt"></i> Tech Stack</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Technologies and developer tools I actively use and learn as a CSE student.</p>
+        </div>
+
+        <!-- Skills Grid with Stylish Badges -->
+        <div class="skills-grid">
+          
+          <!-- Skill 1: C Programming -->
+          <div class="skill-card glass-card">
+            <div class="skill-header">
+              <div class="skill-icon-box c-icon">
+                <span class="c-symbol">C</span>
+              </div>
+              <span class="skill-level-badge">Core Logic</span>
+            </div>
+            <div class="skill-content">
+              <h3 class="skill-name">C Language</h3>
+              <p class="skill-desc">Structured programming, pointers, memory allocation, arrays, and problem solving fundamentals.</p>
+              <div class="skill-tags">
+                <span class="mini-tag">Data Types</span>
+                <span class="mini-tag">Functions</span>
+                <span class="mini-tag">Pointers</span>
+              </div>
+            </div>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-bar" style="--skill-pct: 85%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 2: HTML5 -->
+          <div class="skill-card glass-card">
+            <div class="skill-header">
+              <div class="skill-icon-box html-icon">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <span class="skill-level-badge">Structure</span>
+            </div>
+            <div class="skill-content">
+              <h3 class="skill-name">HTML5</h3>
+              <p class="skill-desc">Semantic document markup, accessibility standards, SEO friendly tags, and audio/video elements.</p>
+              <div class="skill-tags">
+                <span class="mini-tag">Semantic Tags</span>
+                <span class="mini-tag">Forms &amp; Inputs</span>
+                <span class="mini-tag">Accessibility</span>
+              </div>
+            </div>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-bar" style="--skill-pct: 90%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 3: CSS3 -->
+          <div class="skill-card glass-card">
+            <div class="skill-header">
+              <div class="skill-icon-box css-icon">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <span class="skill-level-badge">Styling &amp; Design</span>
+            </div>
+            <div class="skill-content">
+              <h3 class="skill-name">CSS3</h3>
+              <p class="skill-desc">Flexbox, CSS Grid layouts, glassmorphism UI, responsive media queries, and keyframe animations.</p>
+              <div class="skill-tags">
+                <span class="mini-tag">Flexbox &amp; Grid</span>
+                <span class="mini-tag">Glassmorphism</span>
+                <span class="mini-tag">Animations</span>
+              </div>
+            </div>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-bar" style="--skill-pct: 88%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 4: JavaScript -->
+          <div class="skill-card glass-card">
+            <div class="skill-header">
+              <div class="skill-icon-box js-icon">
+                <i class="fa-brands fa-square-js"></i>
+              </div>
+              <span class="skill-level-badge">Interactivity</span>
+            </div>
+            <div class="skill-content">
+              <h3 class="skill-name">JavaScript</h3>
+              <p class="skill-desc">ES6+ syntax, DOM manipulation, event handling, asynchronous operations, and interactive controls.</p>
+              <div class="skill-tags">
+                <span class="mini-tag">DOM Manipulation</span>
+                <span class="mini-tag">ES6+</span>
+                <span class="mini-tag">Event Handlers</span>
+              </div>
+            </div>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-bar" style="--skill-pct: 80%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 5: Git -->
+          <div class="skill-card glass-card">
+            <div class="skill-header">
+              <div class="skill-icon-box git-icon">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <span class="skill-level-badge">Version Control</span>
+            </div>
+            <div class="skill-content">
+              <h3 class="skill-name">Git</h3>
+              <p class="skill-desc">Distributed version control, branch management, commit hygiene, diffs, and merge conflict resolution.</p>
+              <div class="skill-tags">
+                <span class="mini-tag">Branching</span>
+                <span class="mini-tag">Commit Hygiene</span>
+                <span class="mini-tag">CLI</span>
+              </div>
+            </div>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-bar" style="--skill-pct: 82%;"></div>
+            </div>
+          </div>
+
+          <!-- Skill 6: GitHub -->
+          <div class="skill-card glass-card">
+            <div class="skill-header">
+              <div class="skill-icon-box github-icon">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <span class="skill-level-badge">Collaboration</span>
+            </div>
+            <div class="skill-content">
+              <h3 class="skill-name">GitHub</h3>
+              <p class="skill-desc">Remote code hosting, repository management, open source collaboration, and GitHub Pages deployments.</p>
+              <div class="skill-tags">
+                <span class="mini-tag">Repositories</span>
+                <span class="mini-tag">Pull Requests</span>
+                <span class="mini-tag">Hosting</span>
+              </div>
+            </div>
+            <div class="skill-progress-wrap">
+              <div class="skill-progress-bar" style="--skill-pct: 85%;"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 4: EDUCATION
+         ============================================== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-graduation-cap"></i> Academic Journey</span>
+          <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Academic qualifications and educational milestones in Computer Science.</p>
+        </div>
+
+        <div class="education-timeline">
+
+          <!-- Education Card 1: B.Tech CSE (Current) -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot current"></div>
+              <div class="marker-line"></div>
+            </div>
+            
+            <div class="timeline-content glass-card current-education">
+              <div class="edu-top-bar">
+                <span class="edu-status-badge current"><i class="fa-solid fa-spinner fa-spin-pulse"></i> Currently Enrolled</span>
+                <span class="edu-period"><i class="fa-regular fa-calendar"></i> 2026 &ndash; 2030 (1st Year)</span>
+              </div>
+
+              <div class="edu-main-info">
+                <h3 class="edu-degree">Bachelor of Technology (B.Tech)</h3>
+                <h4 class="edu-branch gradient-text">Computer Science &amp; Engineering (CSE)</h4>
+                <div class="edu-institution">
+                  <i class="fa-solid fa-building-columns text-accent"></i>
+                  <strong>JECRC University</strong>, Rajasthan, India
+                </div>
+              </div>
+
+              <p class="edu-description">
+                Building a strong engineering foundation in computing fundamentals, object-oriented concepts, C programming, data structures, and web technologies. Actively participating in hands-on coding and technical problem solving.
+              </p>
+
+              <div class="edu-highlights">
+                <span class="edu-chip"><i class="fa-solid fa-check text-accent"></i> 1st Year Undergrad (2026-2030)</span>
+                <span class="edu-chip"><i class="fa-solid fa-check text-accent"></i> Core Programming in C</span>
+                <span class="edu-chip"><i class="fa-solid fa-check text-accent"></i> Front-End Fundamentals</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Card 2: 12th Grade -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+              <div class="marker-line"></div>
+            </div>
+
+            <div class="timeline-content glass-card">
+              <div class="edu-top-bar">
+                <span class="edu-status-badge completed"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                <span class="edu-period"><i class="fa-regular fa-calendar"></i> Senior Secondary (Class XII)</span>
+              </div>
+
+              <div class="edu-main-info">
+                <h3 class="edu-degree">Senior Secondary Education (Class XII)</h3>
+                <h4 class="edu-branch">Science Stream (Physics, Chemistry, Mathematics)</h4>
+                
+                <div class="edu-institution">
+                  <i class="fa-solid fa-school text-accent"></i>
+                  <strong>Vidhya Niketan Sen. Sec. School</strong>, Rajasthan
+                </div>
+              </div>
+
+              <div class="edu-grade-box">
+                <span class="grade-label">Percentage Scored:</span>
+                <span class="grade-value gradient-text">85.40%</span>
+              </div>
+
+              <p class="edu-description">
+                Successfully completed Class XII with an impressive score of 85.40% in the Science stream, cultivating strong analytical reasoning, quantitative problem solving, and mathematical foundations.
+              </p>
+
+              <div class="edu-highlights">
+                <span class="edu-chip"><i class="fa-solid fa-award text-accent"></i> 85.40% Score</span>
+                <span class="edu-chip"><i class="fa-solid fa-atom text-accent"></i> Physics &amp; Chemistry</span>
+                <span class="edu-chip"><i class="fa-solid fa-calculator text-accent"></i> Advanced Mathematics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education Card 3: 10th Grade -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="marker-dot"></div>
+            </div>
+
+            <div class="timeline-content glass-card">
+              <div class="edu-top-bar">
+                <span class="edu-status-badge completed"><i class="fa-solid fa-circle-check"></i> Completed</span>
+                <span class="edu-period"><i class="fa-regular fa-calendar"></i> Secondary School (Class X)</span>
+              </div>
+
+              <div class="edu-main-info">
+                <h3 class="edu-degree">Secondary School Examination (Class X)</h3>
+                <h4 class="edu-branch">Science, Mathematics &amp; English Foundation</h4>
+                
+                <div class="edu-institution">
+                  <i class="fa-solid fa-school text-accent"></i>
+                  <strong>Vidhya Niketan Sen. Sec. School</strong>, Rajasthan
+                </div>
+              </div>
+
+              <div class="edu-grade-box">
+                <span class="grade-label">Percentage Scored:</span>
+                <span class="grade-value gradient-text">82.00%</span>
+              </div>
+
+              <p class="edu-description">
+                Completed Class X with a strong academic performance of 82.00%, demonstrating consistent dedication, analytical aptitude, and strong foundations across sciences and mathematics.
+              </p>
+
+              <div class="edu-highlights">
+                <span class="edu-chip"><i class="fa-solid fa-award text-accent"></i> 82.00% Score</span>
+                <span class="edu-chip"><i class="fa-solid fa-book-open text-accent"></i> Science &amp; Mathematics</span>
+                <span class="edu-chip"><i class="fa-solid fa-circle-check text-accent"></i> Academic Distinction</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 5: PROJECTS
+         ============================================== -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-solid fa-laptop-code"></i> Portfolio Showcase</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Real-world projects showcasing front-end craftsmanship and algorithmic logic.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Personal Portfolio -->
+          <article class="project-card glass-card">
+            <div class="project-preview-wrap">
+              <div class="project-badge">Featured</div>
+              <div class="project-mockup">
+                <div class="mockup-bar">
+                  <span class="mock-dot red"></span>
+                  <span class="mock-dot yellow"></span>
+                  <span class="mock-dot green"></span>
+                  <span class="mock-url">https://jayant-portfolio.dev</span>
+                </div>
+                <div class="mockup-content">
+                  <div class="mock-hero-snippet">
+                    <span class="snippet-tag">&lt;Jayant /&gt;</span>
+                    <h4>Developer Portfolio</h4>
+                    <p>Dark Black &bull; Blue-Purple Neon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tech-stack">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Glassmorphism</span>
+              </div>
+
+              <h3 class="project-title">Personal Developer Portfolio</h3>
+              <p class="project-desc">
+                A modern, responsive personal portfolio with dark neon aesthetics, glassmorphic card elements, dynamic typewriter hero effect, active scrollspy navigation, and working contact form handling.
+              </p>
+
+              <div class="project-actions">
+                <!-- Placeholder GitHub Link -->
+                <a href="https://github.com/your-username/personal-portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                <a href="#home" class="btn btn-primary btn-sm">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  <span>Live Preview</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: C Student Record System -->
+          <article class="project-card glass-card">
+            <div class="project-preview-wrap">
+              <div class="project-badge">C Language</div>
+              <div class="project-mockup c-mockup">
+                <div class="mockup-bar">
+                  <span class="mock-dot red"></span>
+                  <span class="mock-dot yellow"></span>
+                  <span class="mock-dot green"></span>
+                  <span class="mock-url">student_records.c</span>
+                </div>
+                <div class="mockup-content c-terminal">
+                  <div class="c-code-preview">
+                    <code>struct Student {<br>&nbsp;&nbsp;int roll;<br>&nbsp;&nbsp;char name[50];<br>&nbsp;&nbsp;float cgpa;<br>};</code>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tech-stack">
+                <span class="tech-tag">C Language</span>
+                <span class="tech-tag">File I/O</span>
+                <span class="tech-tag">Data Structures</span>
+                <span class="tech-tag">CLI</span>
+              </div>
+
+              <h3 class="project-title">Student Record Management System</h3>
+              <p class="project-desc">
+                A robust console application in C demonstrating file handling, binary storage, CRUD record operations, search algorithms, and structured data organization for academic student records.
+              </p>
+
+              <div class="project-actions">
+                <!-- Placeholder GitHub Link -->
+                <a href="https://github.com/your-username/student-record-system-c" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                <button type="button" class="btn btn-glass btn-sm" onclick="window.showProjectModal('student-records')">
+                  <i class="fa-solid fa-circle-info"></i>
+                  <span>View Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Interactive JS Web Apps -->
+          <article class="project-card glass-card">
+            <div class="project-preview-wrap">
+              <div class="project-badge">JavaScript</div>
+              <div class="project-mockup js-mockup">
+                <div class="mockup-bar">
+                  <span class="mock-dot red"></span>
+                  <span class="mock-dot yellow"></span>
+                  <span class="mock-dot green"></span>
+                  <span class="mock-url">js-apps.local</span>
+                </div>
+                <div class="mockup-content js-preview">
+                  <div class="js-app-box">
+                    <span class="js-badge">JS Task Hub</span>
+                    <div class="js-tasks-mini">
+                      <span>✔ Complete C Pointer Lab</span>
+                      <span>✔ Style Portfolio Hero</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-tech-stack">
+                <span class="tech-tag">JavaScript ES6</span>
+                <span class="tech-tag">DOM API</span>
+                <span class="tech-tag">LocalStorage</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+
+              <h3 class="project-title">Interactive JavaScript Utility Apps</h3>
+              <p class="project-desc">
+                A suite of modern web utilities built with pure JavaScript, featuring a dynamic task manager with local storage caching, a digital stopwatch, and a clean glassmorphism calculator.
+              </p>
+
+              <div class="project-actions">
+                <!-- Placeholder GitHub Link -->
+                <a href="https://github.com/your-username/interactive-js-apps" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+                <button type="button" class="btn btn-glass btn-sm" onclick="window.showProjectModal('js-apps')">
+                  <i class="fa-solid fa-circle-info"></i>
+                  <span>View Details</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==============================================
+         SECTION 6: CONTACT
+         ============================================== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-regular fa-paper-plane"></i> Get In Touch</span>
+          <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">Have a question, collaboration idea, or want to connect? Send me a message!</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards Column -->
+          <div class="contact-info-wrap">
+            <div class="glass-card contact-info-card">
+              <h3 class="contact-info-title">Let's Connect &amp; Collaborate</h3>
+              <p class="contact-info-desc">
+                I'm actively looking for tech discussions, project collaborations, and internships. Feel free to reach out via the form or my social channels!
+              </p>
+
+              <div class="info-items-list">
+                <!-- Location -->
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div class="info-text">
+                    <span class="info-label">Location</span>
+                    <span class="info-value">Rajasthan, India</span>
+                  </div>
+                </div>
+
+                <!-- College -->
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                  </div>
+                  <div class="info-text">
+                    <span class="info-label">College</span>
+                    <span class="info-value">JECRC University</span>
+                  </div>
+                </div>
+
+                <!-- Email Placeholder -->
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                  <div class="info-text">
+                    <span class="info-label">Email (Placeholder)</span>
+                    <a href="mailto:jayant.placeholder@example.com" class="info-value link-accent">
+                      jayant.placeholder@example.com
+                    </a>
+                  </div>
+                </div>
+
+                <!-- Status -->
+                <div class="info-item">
+                  <div class="info-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                  </div>
+                  <div class="info-text">
+                    <span class="info-label">Academic Status</span>
+                    <span class="info-value">B.Tech CSE (1st Year, 2026&ndash;2030)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links in Contact Box -->
+              <div class="contact-social-block">
+                <span class="social-block-title">Follow on Social Media:</span>
+                <div class="social-links">
+                  <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  <a href="mailto:jayant.placeholder@example.com" class="social-icon" aria-label="Direct Email">
+                    <i class="fa-regular fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Working Interactive Contact Form Column -->
+          <div class="contact-form-wrap">
+            <div class="glass-card contact-form-card">
+              <h3 class="form-title">Send Me a Message</h3>
+              <p class="form-subtitle">Fill in your details below and I'll respond as soon as possible.</p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <!-- Form Status Notification Container -->
+                <div id="form-alert" class="form-alert" role="alert" style="display: none;"></div>
+
+                <!-- Name Field -->
+                <div class="form-group">
+                  <label for="name" class="form-label">
+                    <span>Full Name</span>
+                    <span class="required-star">*</span>
+                  </label>
+                  <div class="input-with-icon">
+                    <i class="fa-regular fa-user input-icon"></i>
+                    <input 
+                      type="text" 
+                      id="name" 
+                      name="name" 
+                      class="form-control" 
+                      placeholder="e.g. Alex Sharma" 
+                      required 
+                      autocomplete="name"
+                    >
+                  </div>
+                  <span class="error-feedback" id="name-error"></span>
+                </div>
+
+                <!-- Email Field -->
+                <div class="form-group">
+                  <label for="email" class="form-label">
+                    <span>Email Address</span>
+                    <span class="required-star">*</span>
+                  </label>
+                  <div class="input-with-icon">
+                    <i class="fa-regular fa-envelope input-icon"></i>
+                    <input 
+                      type="email" 
+                      id="email" 
+                      name="email" 
+                      class="form-control" 
+                      placeholder="e.g. alex@example.com" 
+                      required 
+                      autocomplete="email"
+                    >
+                  </div>
+                  <span class="error-feedback" id="email-error"></span>
+                </div>
+
+                <!-- Subject Field (Optional) -->
+                <div class="form-group">
+                  <label for="subject" class="form-label">Subject</label>
+                  <div class="input-with-icon">
+                    <i class="fa-regular fa-bookmark input-icon"></i>
+                    <input 
+                      type="text" 
+                      id="subject" 
+                      name="subject" 
+                      class="form-control" 
+                      placeholder="e.g. Project Collaboration / Inquiry"
+                    >
+                  </div>
+                </div>
+
+                <!-- Message Field -->
+                <div class="form-group">
+                  <label for="message" class="form-label">
+                    <span>Your Message</span>
+                    <span class="required-star">*</span>
+                  </label>
+                  <div class="input-with-icon textarea-icon-wrap">
+                    <i class="fa-regular fa-comment-dots input-icon"></i>
+                    <textarea 
+                      id="message" 
+                      name="message" 
+                      class="form-control" 
+                      rows="5" 
+                      placeholder="Write your message or project inquiry here..." 
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="textarea-footer">
+                    <span class="error-feedback" id="message-error"></span>
+                    <span class="char-count" id="char-count">0 / 1000</span>
+                  </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary btn-block submit-btn" id="submit-btn">
+                  <span class="btn-text">
+                    <span>Send Message</span>
+                    <i class="fa-regular fa-paper-plane"></i>
+                  </span>
+                  <span class="btn-loading" style="display: none;">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i>
+                    <span>Sending...</span>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==============================================
+       SECTION 7: FOOTER & SOCIAL LINKS
+       ============================================== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="nav-brand">
+            <span class="brand-bracket">&lt;</span>
+            <span class="brand-name">Jayant</span>
+            <span class="brand-slash">/</span>
+            <span class="brand-bracket">&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            B.Tech CSE Student (Batch 2026&ndash;2030) at JECRC University, Rajasthan &bull; Crafting code and responsive experiences.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social-wrap">
+          <h4 class="footer-heading">Connect</h4>
+          <div class="social-links footer-socials">
+            <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:jayant.placeholder@example.com" class="social-icon" aria-label="Email Jayant">
+              <i class="fa-regular fa-envelope"></i>
+            </a>
+          </div>
+          <div class="footer-cv-btn-wrap">
+            <a href="./assets/Jayant_Resume.txt" download="Jayant_Resume.txt" class="btn btn-outline btn-sm">
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <span>Download CV</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> <strong>Jayant</strong>. All rights reserved.
+        </p>
+        <p class="built-with">
+          Designed with <span class="heart-icon">&hearts;</span> using HTML, CSS &amp; JavaScript
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back-to-Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top of page" title="Back to Top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Interactive Project Details Modal -->
+  <div class="modal-backdrop" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card glass-card">
+      <button class="modal-close" id="modal-close" aria-label="Close details modal">&times;</button>
+      <div class="modal-body" id="modal-body">
+        <!-- Content injected dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Toast Notification -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="./js/main.js"></script>
+
+  <!-- Botpress Webchat -->
+  <script src="https://cdn.botpress.cloud/webchat/v5.0/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2026/10/12/16/20261012161158-P36HHYSR.js" defer></script>
+</body>
+</html>

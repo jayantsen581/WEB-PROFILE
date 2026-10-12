@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0a0a14" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle with Border Glow -->
+  <circle cx="200" cy="200" r="190" fill="url(#bgGrad)" stroke="url(#accentGrad)" stroke-width="3" />
+  <circle cx="200" cy="200" r="170" fill="url(#glowGrad)" filter="url(#glow)" />
+
+  <!-- Abstract Developer Avatar / Silhouette -->
+  <!-- Shoulders / Torso with Hoodie look -->
+  <path d="M100 350 C110 270, 140 240, 200 240 C260 240, 290 270, 300 350 Z" fill="#1e2238" stroke="url(#accentGrad)" stroke-width="2" />
+  
+  <!-- Hoodie inner shadow -->
+  <path d="M140 350 C150 290, 170 270, 200 270 C230 270, 250 290, 260 350 Z" fill="#131627" />
+
+  <!-- Neck -->
+  <rect x="180" y="200" width="40" height="40" rx="8" fill="#e2e8f0" opacity="0.85" />
+
+  <!-- Head Base -->
+  <ellipse cx="200" cy="165" rx="52" ry="62" fill="#e2e8f0" opacity="0.9" />
+
+  <!-- Modern Hair Style -->
+  <path d="M145 155 C145 105, 170 90, 210 90 C245 90, 255 108, 255 140 C240 125, 220 120, 195 125 C170 130, 155 145, 145 155 Z" fill="#1e1b4b" stroke="url(#accentGrad)" stroke-width="1.5" />
+
+  <!-- Glasses / Developer Specs -->
+  <rect x="162" y="152" width="30" height="20" rx="6" fill="rgba(99, 102, 241, 0.15)" stroke="#38bdf8" stroke-width="2.5" />
+  <rect x="208" y="152" width="30" height="20" rx="6" fill="rgba(99, 102, 241, 0.15)" stroke="#38bdf8" stroke-width="2.5" />
+  <line x1="192" y1="162" x2="208" y2="162" stroke="#38bdf8" stroke-width="2.5" />
+  
+  <!-- Smile -->
+  <path d="M188 198 Q200 208 212 198" fill="none" stroke="#475569" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Floating Coding Symbols -->
+  <g opacity="0.85" transform="translate(0, 0)">
+    <!-- Left Symbol: Code Tag < / > -->
+    <rect x="42" y="120" width="54" height="42" rx="10" fill="rgba(15, 23, 42, 0.8)" stroke="#818cf8" stroke-width="1.5" />
+    <text x="50" y="148" font-family="monospace" font-size="20" font-weight="bold" fill="#38bdf8">&lt;/&gt;</text>
+
+    <!-- Right Symbol: Curly Brackets { } -->
+    <rect x="304" y="120" width="54" height="42" rx="10" fill="rgba(15, 23, 42, 0.8)" stroke="#c084fc" stroke-width="1.5" />
+    <text x="318" y="148" font-family="monospace" font-size="20" font-weight="bold" fill="#c084fc">{ }</text>
+
+    <!-- Bottom Badge: CSE -->
+    <rect x="135" y="325" width="130" height="34" rx="17" fill="rgba(10, 15, 30, 0.95)" stroke="url(#accentGrad)" stroke-width="1.5" />
+    <text x="200" y="348" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f8fafc" letter-spacing="1.5">B.TECH CSE</text>
+  </g>
+</svg>

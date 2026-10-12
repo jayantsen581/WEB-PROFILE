@@ -1,0 +1,55 @@
+============================================================
+                    JAYANT - RESUME
+============================================================
+Role: B.Tech Computer Science & Engineering (1st Year)
+Batch: 2026 - 2030
+College: JECRC University, Jaipur, Rajasthan, India
+Location: Rajasthan, India
+Contact: jayant.placeholder@example.com
+GitHub: https://github.com/your-username
+LinkedIn: https://linkedin.com/in/your-username
+
+------------------------------------------------------------
+EDUCATION
+------------------------------------------------------------
+• Bachelor of Technology (B.Tech) - Computer Science & Engineering (CSE)
+  JECRC University, Jaipur, Rajasthan
+  Duration: 2026 - 2030 (1st Year)
+  Key Focus: Programming in C, Data Structures, Web Technologies
+
+• Senior Secondary Education (Class XII)
+  School: Vidhya Niketan Sen. Sec. School, Rajasthan
+  Stream: Science (Physics, Chemistry, Mathematics)
+  Percentage: 85.40%
+
+• Secondary School Examination (Class X)
+  School: Vidhya Niketan Sen. Sec. School, Rajasthan
+  Percentage: 82.00%
+
+------------------------------------------------------------
+TECHNICAL SKILLS
+------------------------------------------------------------
+• Programming Languages: C, JavaScript
+• Web Technologies: HTML5, CSS3 (Flexbox, Grid, Glassmorphism, Responsive Design)
+• Tools & Version Control: Git, GitHub, VS Code
+• Core Competencies: Algorithmic Thinking, Problem Solving, Front-End UI
+
+------------------------------------------------------------
+PROJECTS
+------------------------------------------------------------
+1. Developer Portfolio Website
+   Tech: HTML5, Modern CSS3, JavaScript
+   - Responsive personal portfolio featuring dark neon glassmorphism.
+   - Dynamic typewriter animations, scrollspy navigation, and validated contact form.
+
+2. Student Record Management System
+   Tech: C Language, File Handling, Data Structures
+   - Console-based system to store, search, and manage student academic records.
+   - Built with binary file persistence and memory management in C.
+
+3. Interactive JavaScript Utilities Suite
+   Tech: JavaScript (ES6+), DOM Manipulation, LocalStorage
+   - Set of productivity web utilities including a task tracker and calculator.
+   - Clean, modular code with client-side state persistence.
+
+============================================================
